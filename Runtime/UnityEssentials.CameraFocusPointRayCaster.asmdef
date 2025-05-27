@@ -1,0 +1,18 @@
+{
+    "name": "UnityEssentials.CameraFocusPointRayCaster",
+    "rootNamespace": "UnityEssentials",
+    "references": [
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:fd1e7b63e0e7d634db53519cc860fe3a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
