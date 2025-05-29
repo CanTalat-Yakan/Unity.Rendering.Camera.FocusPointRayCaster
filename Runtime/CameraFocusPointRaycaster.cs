@@ -98,7 +98,7 @@ namespace UnityEssentials
             // Use different color for clarity
             Gizmos.color = Color.cyan;
 
-            float radius = Settings != null && Settings.CenteredWeight ? Settings.WeightRadius : 0.1f;
+            float radius = Settings?.CenteredWeight ?? false ? Settings.WeightRadius : 0.1f;
             Gizmos.DrawWireSphere(CurrentTargetPoint, radius);
         }
 #endif
