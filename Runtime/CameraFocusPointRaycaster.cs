@@ -8,6 +8,7 @@ namespace UnityEssentials
     public class FocusPointRayCasterSettings
     {
         public float MaxDistance = 100f;
+        public float DefaultDistance = 5f;
         public LayerMask Layers = 1;
 
         [Space]
@@ -53,7 +54,7 @@ namespace UnityEssentials
 
             var origin = transform.position;
             var direction = transform.forward;
-            var targetFocusDistance = Settings.MaxDistance;
+            var targetFocusDistance = Settings.DefaultDistance;
             var targetPoint = origin + direction * Settings.MaxDistance;
 
             if (Settings.CenteredWeight)
