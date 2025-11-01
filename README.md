@@ -52,7 +52,7 @@ Automatic focus distance is derived each frame from what the camera looks at. A 
   - Single component; per‑frame physics query and Lerp smoothing
 
 ## Requirements
-- Unity 6000.0+ (per package manifest)
+- Unity 6000.0+
 - A Camera with Physical Camera enabled if using `Camera.focusDistance`
 - Valid colliders on target geometry and a correctly configured LayerMask
 - Optional: Cinemachine (with `CinemachineCamera`) for direct lens control
