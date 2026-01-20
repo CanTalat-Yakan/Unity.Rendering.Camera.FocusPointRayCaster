@@ -38,7 +38,7 @@ namespace UnityEssentials
             _camera = GetComponent<Camera>();
             _cinemachineCamera = GetComponent<CinemachineCamera>();
 
-            var prefab = ResourceLoader.InstantiatePrefab("UnityEssentials_Prefab_CameraDoFVolume", "DoF Volume", this.gameObject.transform);
+            var prefab = AssetResolver.InstantiatePrefab("UnityEssentials_Prefab_CameraDoFVolume", "DoF Volume", this.gameObject.transform);
         }
 
         public void Start()
