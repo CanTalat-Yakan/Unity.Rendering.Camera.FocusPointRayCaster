@@ -1,7 +1,7 @@
 {
-  "name": "com.unityessentials.camerafocuspointraycaster",
-  "version": "1.0.0",
-  "displayName": "Unity Rendering CameraFocusPointRayCaster",
+  "name": "com.unityessentials.rendering.camera.focuspointraycaster",
+  "version": "2.0.0",
+  "displayName": "Rendering Camera FocusPointRayCaster",
   "description": "This is a part of the UnityEssentials Ecosystem",
   "unity": "6000.0",
   "unityRelease": "",
